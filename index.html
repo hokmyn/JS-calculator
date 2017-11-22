@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="application-name" content="JS calculator" />
+    <meta name="author" content="Denis Kalinin" />
+
+    <title>JS calculator</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+<div class="container" id="wrapper">  
+  	<div class="container" id="calculator">
+			<div class="row header">
+    		<div class="text-center">JavaScript Calculator</div>
+    	</div>    	
+    	<div class="row">
+        <div id="result" class="smaller"></div><div id="entry" class="normal">0</div>
+    	</div>    	
+    	<div id="buttons" class="text-center">
+      	<div class="row">
+					<input class="btn btn-default" type="button" value="AC">
+					<input class="btn btn-default" type="button" value="<-">
+					<input class="btn btn-default" type="button" value="+/-">
+					<input class="btn btn-default" type="button" value="/">
+      	</div>
+      	<div class="row">
+					<input class="btn btn-default btn-lg" type="button" value="9">
+					<input class="btn btn-default btn-lg" type="button" value="8">
+					<input class="btn btn-default btn-lg" type="button" value="7">
+					<input class="btn btn-default btn-lg" type="button" value="*">
+      	</div>
+      	<div class="row">
+					<input class="btn btn-default btn-lg" type="button" value="6">
+					<input class="btn btn-default btn-lg" type="button" value="5">
+					<input class="btn btn-default btn-lg" type="button" value="4">
+					<input class="btn btn-default btn-lg" type="button" value="-">
+      	</div>
+      	<div class="abc">
+					<input class="btn btn-default btn-lg" type="button" value="3">
+					<input class="btn btn-default btn-lg" type="button" value="2">
+					<input class="btn btn-default btn-lg" type="button" value="1">					
+      	</div>
+      	<div class="last">
+					<input class="btn btn-default btn-lg" type="button" value="0">
+					<input class="btn btn-default btn-lg" type="button" value=".">
+					<input class="btn btn-default btn-lg" type="button" value="=">
+        </div>
+					<input class="btn btn-default btn-lg" type="button" value="+">
+    	</div>
+  	</div>
+	</div>
+<footer class="text-center">Coded by <a href="https://codepen.io/hokmyn/">Hokmyn</a></footer>
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
