@@ -1,0 +1,91 @@
+html body {  
+  background-color: #F3EABB;
+}
+#wrapper {
+	padding-top: 80px;
+}
+.header {
+  margin-bottom: 10px;
+}
+#calculator {
+	border: 2px solid black;
+	width: 288px;
+	padding: 15px 10px 20px 10px;
+	border-radius: 20px;
+	background-color: #141414;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  margin:0 auto;
+}
+#entry {
+	height: 40px;
+	
+	border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+	width: 80%;
+	margin:0 auto;
+	background-color: #fff;
+	text-align: right;	
+	overflow: hidden;  
+}
+#result {
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #fff;  
+	text-align: right;	
+	overflow: hidden;
+  width: 80%;
+	margin: 0 auto;
+}
+#buttons {
+  margin-top: 10px;
+}
+#buttons input {
+	margin-right: 10px;
+	width: 44px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #383D42;
+	color: #fff;
+	outline: none;
+	border: none;
+}
+#buttons input:hover {
+	background: #272822;
+}
+#buttons .row :last-child {	
+	margin-right: 0;
+}
+#buttons input[value=AC], #buttons input[value=CE] {	
+	background-color: #ED524E;
+}
+#buttons input[value=AC]:hover, #buttons input[value=CE]:hover {	
+	background-color: #B8413D;
+}
+#buttons input[value="="] {	
+	background-color: #52BCDC;
+}
+#calculator .header {
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 20px;
+	color: #fff;
+}
+#buttons input[value="+"] {	
+	height: 98px;
+  margin-left: -4px;
+}
+.abc, .last {
+  float: left;
+  margin-left: 23px;
+}
+.normal {
+  font-size: 26px;
+}
+.smaller {
+  font-size: 18px;
+  line-height: 38px
+}
+footer {
+  margin-top: 20px;
+}
+
